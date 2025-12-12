@@ -11,6 +11,7 @@ var active_log_index: int:
 
 signal show_main_loader(pipeline_payload: Dictionary)
 signal hide_main_loader(pipeline_payload: Dictionary)
+signal set_print_logs_state(pipeline_payload: Dictionary)
 signal run_signals_pipeline(pipeline_payload: Dictionary)
 signal print_log(pipeline_payload: Dictionary)
 

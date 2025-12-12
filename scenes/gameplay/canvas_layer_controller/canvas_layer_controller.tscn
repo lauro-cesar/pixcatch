@@ -1,0 +1,29 @@
+[gd_scene load_steps=2 format=3 uid="uid://cy7ffsqfmmfv4"]
+
+[ext_resource type="Script" uid="uid://bl3gb5ojs8b5x" path="res://scenes/gameplay/canvas_layer_controller/canvas_layer_controller.gd" id="1_ptcs7"]
+
+[node name="CanvasLayerController" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_ptcs7")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+follow_viewport_enabled = true
+
+[node name="Label" type="Label" parent="CanvasLayer"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -41.0
+offset_top = -11.5
+offset_right = 41.0
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+text = "Game play"

@@ -283,9 +283,8 @@ async function isBuildNumberDifferent(url) {
 		const GODOT_CONFIG = $GODOT_CONFIG;
 
 		(async () => {
-		const isDifferent = await isBuildNumberDifferent("https://api.gamerstash.app/static/assets/version.json");
-		if (isDifferent) {
-			console.log("New release...");
+		const isDifferent = await isBuildNumberDifferent("https://pixpool.gamerstash.app/assets/version.json");
+		if (isDifferent) {			
 			reset_cache_and_reload();
 		} else {
 			var engine = new Engine(GODOT_CONFIG);

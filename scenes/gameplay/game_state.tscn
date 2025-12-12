@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dnfdmi7p1a4cs"]
+
+[ext_resource type="PackedScene" uid="uid://cy7ffsqfmmfv4" path="res://scenes/gameplay/canvas_layer_controller/canvas_layer_controller.tscn" id="1_bslbb"]
+
+[node name="GameState" type="Node3D"]
+
+[node name="CanvasLayerController" parent="." instance=ExtResource("1_bslbb")]

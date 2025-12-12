@@ -1,0 +1,3 @@
+[gd_scene format=3 uid="uid://cvxl4pmd74hin"]
+
+[node name="OnboardingScene" type="Node3D"]
